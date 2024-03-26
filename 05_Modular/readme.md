@@ -125,8 +125,8 @@ $$
 
 6. 如果整数 $k$ 和 $n$互质，即 $\gcd(k,n) = 1$，且 $k \cdot a \equiv k \cdot b \pmod{n}$ ，那么有 $a \equiv b \pmod{n}$。
    
-   反证法：如果 $a$ 和 $b$不同余，假设 $a \pmod{n}=n_1$， $b \pmod{n}=n_2$, $n_1$不等于 $n_2$,且 $n_1 <n$、 $n_2 <n$,不妨令 $n_2 <n_1$。
-   如果要 $k \cdot a \equiv k \cdot b \pmod{n}$ ，则 $k \cdot (n_1-n_2) \pmod{n}=0$,但 $k$ 和 $n$互质， $n_1-n_2<n$，所以 $k$和 $n_1-n_2$被 $n$整除，矛盾。
+   反证法：如果 $a$ 和 $b$不同余，假设 $a \pmod{n}=n_1$， $b \pmod{n}=n_2$, $n_1$不等于 $n_2$,且 $n_1 \lt n$、 $n_2 \lt n$,不妨令 $n_2 \lt n_1$。
+   如果要 $k \cdot a \equiv k \cdot b \pmod{n}$ ，则 $k \cdot (n_1-n_2) \pmod{n}=0$,但 $k$ 和 $n$互质， $n_1-n_2 \lt n$，所以 $k$和 $n_1-n_2$被 $n$整除，矛盾。
 
     例子：已知 $8 \equiv 14 \pmod{3}$，且 $\gcd(2, 3) = 1$，我们将等式两边同除以 $2$，得到 $4 \equiv 7 \pmod{3}$，仍然成立。
 
